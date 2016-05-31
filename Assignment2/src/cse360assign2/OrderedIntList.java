@@ -92,6 +92,11 @@ public class OrderedIntList
 		System.out.println();
 	}
 	
+	/**
+	 * 
+	 * @param decision is the used input
+	 * @return the boolean value to check if the user wants to debug.
+	 */
 	private boolean debug(String decision)
 	{
 		boolean temporary = false;
