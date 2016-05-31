@@ -91,4 +91,18 @@ public class OrderedIntList
 		
 		System.out.println();
 	}
+	
+	private boolean debug(String decision)
+	{
+		boolean temporary = false;
+				
+		if (decision == "yes")
+			temporary = true;
+		
+		else
+			temporary = false;
+		
+		return temporary;
+		
+	}
 }
