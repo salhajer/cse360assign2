@@ -20,10 +20,14 @@ public class Analytics extends OrderedIntList
 	    if (count == 0)
 	    	summation = -1;
 	    else 
+	    {
 	    	for (int index = 0; index < count; index++) 
 	    		summation = summation + array[index];
 	    
-	    return summation / count;
+	    	summation = summation / count;
+	    }
+	    
+	    return summation ;
 	}
 	
 	/**
